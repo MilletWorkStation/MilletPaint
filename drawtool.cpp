@@ -211,7 +211,7 @@ void LineTool::mousePressEvent(QGraphicsSceneMouseEvent *event, DrawScene *scene
 
     scene->clearSelection();
 
-    m_pItem = new QGraphicsPolygonItem();
+    m_pItem = new QGraphicsLineItem();
     if ( m_pItem == 0)
         return;
 
