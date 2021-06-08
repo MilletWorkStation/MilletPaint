@@ -1,0 +1,20 @@
+#ifndef ALIGNTYPE_H
+#define ALIGNTYPE_H
+
+enum AlignType
+{
+    UP_ALIGN=0,
+    HORZ_ALIGN,
+    VERT_ALIGN,
+    DOWN_ALIGN,
+    LEFT_ALIGN,
+    RIGHT_ALIGN,
+    CENTER_ALIGN,
+    HORZEVEN_ALIGN,
+    VERTEVEN_ALIGN,
+    WIDTH_ALIGN,
+    HEIGHT_ALIGN,
+    ALL_ALIGN
+};
+
+#endif // ALIGNTYPE_H
